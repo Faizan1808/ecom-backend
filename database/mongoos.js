@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const connection = () => mongoose.connect("mongodb://127.0.0.1:27017/ecommerce-user")
+const connection = () => mongoose.connect("mongodb+srv://faiz63440:Faizan@1808@cluster0.ubh59hd.mongodb.net/?retryWrites=true&w=majority")
 
 .then((res)=>{
     (res)
